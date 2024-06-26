@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsHook", "WindowsHook\WindowsHook.csproj", "{3DE79649-FB57-4D63-801E-BDF507DAC2FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DE79649-FB57-4D63-801E-BDF507DAC2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE79649-FB57-4D63-801E-BDF507DAC2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE79649-FB57-4D63-801E-BDF507DAC2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE79649-FB57-4D63-801E-BDF507DAC2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57877886-12D8-4278-A0FC-E87C84B8DA6F}
+	EndGlobalSection
+EndGlobal

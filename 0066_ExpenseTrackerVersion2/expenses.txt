@@ -1,0 +1,13 @@
+2
+1
+water
+sold water
+3
+90
+270
+2
+milk
+sold milk
+2
+1890
+3780

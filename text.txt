@@ -1,0 +1,99 @@
+
+
+
+
+
+Exercises With Variables
+
+Exercises with inputs and outputs
+
+Exercises with Arithmatic operators
+
+Exercises with relational operators
+
+Exercises with logical operators
+
+Exercises with bitwise operators
+
+
+
+ 
+
+Exercises with if statement
+
+Exercises with if else statement
+
+Exercises with nested if 
+
+
+Exercises with switch statement
+
+Exercises with conditional statement
+
+Exercises with for loop
+
+Exercises with while loop
+
+
+Exercises with do while loop
+
+Exercises with foreach loop or ranged-based loop
+
+
+Exercises with break statement
+
+Exercises with continue statement
+
+Exercises with return statement
+
+Exercises with enums
+
+Exercises with structs
+
+Exercises with functions
+
+problem with arrays
+
+Exercises with error handing
+
+
+problems with enums
+
+Exercises with file structure
+
+
+
+
+
+
+
+Structure of the program
+print number on screen
+print string on screen
+print float on screen
+print double on screen
+print long on screen
+print bool on screen
+print integer on screen
+print enum on screen
+read intger from user
+read float 
+read double
+read bool 
+read long
+read short
+read character
+read string from user
+read array of floats
+read array of double
+read array of character
+read array of string
+read array of booleans
+read array of intgers
+print array of floats
+print array of double
+print array of string
+print array of characters
+print array of integers
+print array of booleans
+

@@ -1,0 +1,54 @@
+Certainly! Here's a list of 50 problems related to number theory that you can practice programming with:
+
+1. Prime number identification
+2. Prime factorization of a number
+3. Check if a number is a perfect square
+4. Generate prime numbers within a given range
+5. Check if a number is a power of two
+6. GCD (Greatest Common Divisor) of two numbers
+7. LCM (Least Common Multiple) of two numbers
+8. Euler's Totient function (Phi function)
+9. Check if two numbers are coprime (relatively prime)
+10. Check if a number is a Carmichael number
+11. Check if a number is a Fermat pseudoprime
+12. Generate all divisors of a number
+13. Generate all prime factors of a number
+14. Check if a number is a perfect number
+15. Check if a number is a palindrome
+16. Calculate the modular exponentiation of a number
+17. Calculate the modular inverse of a number
+18. Check if a number is a Mersenne prime
+19. Check if a number is a repunit
+20. Check if a number is a Fibonacci number
+21. Check if a number is a Lucas number
+22. Generate all Fibonacci numbers within a given range
+23. Generate all Lucas numbers within a given range
+24. Calculate the nth Fibonacci number
+25. Calculate the nth Lucas number
+26. Check if a number is a triangular number
+27. Check if a number is a square-free number
+28. Calculate the sum of divisors of a number
+29. Calculate the sum of prime factors of a number
+30. Check if a number is a perfect power
+31. Check if a number is a Smith number
+32. Check if a number is a Harshad number
+33. Check if a number is a narcissistic number
+34. Check if a number is a happy number
+35. Check if a number is a strong number
+36. Check if a number is a deficient number
+37. Check if a number is a abundant number
+38. Check if a number is a pentagonal number
+39. Check if a number is a hexagonal number
+40. Check if a number is a palindromic number in a given base
+41. Check if a number is a highly composite number
+42. Check if a number is a perfect totient number
+43. Check if a number is a practical number
+44. Check if a number is a powerful number
+45. Check if a number is a prime power
+46. Check if a number is a square triangular number
+47. Check if a number is a congruent number
+48. Check if a number is a polydivisible number
+49. Check if a number is a Leyland number
+50. Check if a number is a primeval number
+
+These problems cover a range of concepts in number theory and can be implemented in a programming language of your choice. They will not only help you practice programming but also deepen your understanding of number theory concepts.

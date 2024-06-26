@@ -1,0 +1,23 @@
+Read Items to array
+read numbers to array
+read array of bool values
+read array of string
+read array of char
+read array items to a dynamic array
+print the items of array
+print the items of array in reverse order
+print the first item of array
+print the last item of array
+print the middle item of array
+print the sum of even numbers in array
+print the sum of odd numbers in array
+print the sum of prime numbers in array
+print the sum of perfect number in array
+print the sum of positive numbers in array
+print the sum of negative numbers in the array
+print the average of items in the array
+search for a specific item in the array
+get the max of item in the  array
+get the min of item in the array
+delete item from an array
+sort the items of array 

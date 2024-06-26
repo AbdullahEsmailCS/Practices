@@ -1,0 +1,100 @@
+# Project: AlgorithmsLevel1
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = PrintName.o EnterName.o OddEven.o HireDriver1.o HiredDriver2.o FullName.o HalfNumber.o CheckPassfailMark.o SumationOfThreeNo.o Average3Marks.o PassFailAverage.o MaxOfTwo.o MaxOfThree.o SwapTwoNumbers.o RectangleArea.o RectangleThroughDiagonal.o TriangleArea.o CircleArea.o CircleAreaThroughDiameter.o CircleAreaInscribedInSquare.o CircleAreaCircumference.o CircleAreaIsoscelesTriangle.o CirleAreaDescribedAroundArbitraryTriangle.o ValidateAgeBetween.o ReadUntill.o
+LINKOBJ  = PrintName.o EnterName.o OddEven.o HireDriver1.o HiredDriver2.o FullName.o HalfNumber.o CheckPassfailMark.o SumationOfThreeNo.o Average3Marks.o PassFailAverage.o MaxOfTwo.o MaxOfThree.o SwapTwoNumbers.o RectangleArea.o RectangleThroughDiagonal.o TriangleArea.o CircleArea.o CircleAreaThroughDiameter.o CircleAreaInscribedInSquare.o CircleAreaCircumference.o CircleAreaIsoscelesTriangle.o CirleAreaDescribedAroundArbitraryTriangle.o ValidateAgeBetween.o ReadUntill.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = AlgorithmsLevel1.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+PrintName.o: PrintName.cpp
+	$(CPP) -c PrintName.cpp -o PrintName.o $(CXXFLAGS)
+
+EnterName.o: EnterName.cpp
+	$(CPP) -c EnterName.cpp -o EnterName.o $(CXXFLAGS)
+
+OddEven.o: OddEven.cpp
+	$(CPP) -c OddEven.cpp -o OddEven.o $(CXXFLAGS)
+
+HireDriver1.o: HireDriver1.cpp
+	$(CPP) -c HireDriver1.cpp -o HireDriver1.o $(CXXFLAGS)
+
+HiredDriver2.o: HiredDriver2.cpp
+	$(CPP) -c HiredDriver2.cpp -o HiredDriver2.o $(CXXFLAGS)
+
+FullName.o: FullName.cpp
+	$(CPP) -c FullName.cpp -o FullName.o $(CXXFLAGS)
+
+HalfNumber.o: HalfNumber.cpp
+	$(CPP) -c HalfNumber.cpp -o HalfNumber.o $(CXXFLAGS)
+
+CheckPassfailMark.o: CheckPassfailMark.cpp
+	$(CPP) -c CheckPassfailMark.cpp -o CheckPassfailMark.o $(CXXFLAGS)
+
+SumationOfThreeNo.o: SumationOfThreeNo.cpp
+	$(CPP) -c SumationOfThreeNo.cpp -o SumationOfThreeNo.o $(CXXFLAGS)
+
+Average3Marks.o: Average3Marks.cpp
+	$(CPP) -c Average3Marks.cpp -o Average3Marks.o $(CXXFLAGS)
+
+PassFailAverage.o: PassFailAverage.cpp
+	$(CPP) -c PassFailAverage.cpp -o PassFailAverage.o $(CXXFLAGS)
+
+MaxOfTwo.o: MaxOfTwo.cpp
+	$(CPP) -c MaxOfTwo.cpp -o MaxOfTwo.o $(CXXFLAGS)
+
+MaxOfThree.o: MaxOfThree.cpp
+	$(CPP) -c MaxOfThree.cpp -o MaxOfThree.o $(CXXFLAGS)
+
+SwapTwoNumbers.o: SwapTwoNumbers.cpp
+	$(CPP) -c SwapTwoNumbers.cpp -o SwapTwoNumbers.o $(CXXFLAGS)
+
+RectangleArea.o: RectangleArea.cpp
+	$(CPP) -c RectangleArea.cpp -o RectangleArea.o $(CXXFLAGS)
+
+RectangleThroughDiagonal.o: RectangleThroughDiagonal.cpp
+	$(CPP) -c RectangleThroughDiagonal.cpp -o RectangleThroughDiagonal.o $(CXXFLAGS)
+
+TriangleArea.o: TriangleArea.cpp
+	$(CPP) -c TriangleArea.cpp -o TriangleArea.o $(CXXFLAGS)
+
+CircleArea.o: CircleArea.cpp
+	$(CPP) -c CircleArea.cpp -o CircleArea.o $(CXXFLAGS)
+
+CircleAreaThroughDiameter.o: CircleAreaThroughDiameter.cpp
+	$(CPP) -c CircleAreaThroughDiameter.cpp -o CircleAreaThroughDiameter.o $(CXXFLAGS)
+
+CircleAreaInscribedInSquare.o: CircleAreaInscribedInSquare.cpp
+	$(CPP) -c CircleAreaInscribedInSquare.cpp -o CircleAreaInscribedInSquare.o $(CXXFLAGS)
+
+CircleAreaCircumference.o: CircleAreaCircumference.cpp
+	$(CPP) -c CircleAreaCircumference.cpp -o CircleAreaCircumference.o $(CXXFLAGS)
+
+CircleAreaIsoscelesTriangle.o: CircleAreaIsoscelesTriangle.cpp
+	$(CPP) -c CircleAreaIsoscelesTriangle.cpp -o CircleAreaIsoscelesTriangle.o $(CXXFLAGS)
+
+CirleAreaDescribedAroundArbitraryTriangle.o: CirleAreaDescribedAroundArbitraryTriangle.cpp
+	$(CPP) -c CirleAreaDescribedAroundArbitraryTriangle.cpp -o CirleAreaDescribedAroundArbitraryTriangle.o $(CXXFLAGS)
+
+ValidateAgeBetween.o: ValidateAgeBetween.cpp
+	$(CPP) -c ValidateAgeBetween.cpp -o ValidateAgeBetween.o $(CXXFLAGS)
+
+ReadUntill.o: ReadUntill.cpp
+	$(CPP) -c ReadUntill.cpp -o ReadUntill.o $(CXXFLAGS)
